@@ -1,0 +1,75 @@
+.Nav-span{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(218, 58, 58);
+margin-left: 2.5%;
+margin-right: 2.5%;
+border-radius: 8px 8px 0 0;
+}
+.Nav-Logo{
+  width: 40px;
+  height:40px;
+padding: 8px;
+}
+
+.Nav-Tittle{
+  font-family: 'Lora', serif;
+  font-weight: 500;
+}
+.Header-Container{
+  margin: 20px 20px ;
+margin-right: 12.5%;
+margin-left: 12.5%;
+display: flex;
+padding: 55px;
+
+border-radius: 12px;
+}
+.Header-Container:hover{
+  -webkit-box-shadow: 0px 5px 86px -10px rgba(0,0,0,1);
+-moz-box-shadow: 0px 5px 86px -10px rgba(0,0,0,1);
+box-shadow: 0px 5px 86px -10px rgba(0,0,0,1);
+}
+.Header-Seperation
+{
+display: block;
+}
+.Header-Img{
+  width: 240px;
+  height: 321px;
+  margin-right: 22px;
+  border-radius: 14px;
+  transition: transform .5s ease;
+}
+.Header-Img:hover {
+
+  transform: scale(1.5); 
+}
+.Header-Location{
+display: flex;
+font-family: 'Times New Roman', Times, serif ;
+font-weight: 200;
+}
+.Header-Country{
+  font-size: 23px;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  margin-top: 14px;
+}
+.Header-name{
+
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Header-Date{
+
+
+}
+.Header-Description{
+
+}
+.Location-logo{
+  width: 49px;
+  height: 56px;
+}

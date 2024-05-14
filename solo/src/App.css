@@ -1,0 +1,104 @@
+main{
+  margin: 0px;
+  width: 100%;
+}
+.All{
+  background-color: 	#303030;
+  width: 100%;
+}
+.Profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: calc(100vh - 64px); */
+  background-color: black;
+  width: auto;
+  margin-right: 25%;
+  margin-left: 25%;
+  border-radius: 43px 43px 0 0
+}
+.Logo{
+  width: 260px;
+  height: auto;
+ 
+}
+.Intro{
+  margin: -3px;
+  font-family:"Arial", sans-serif;
+  text-align:center;
+  padding:12px 0 0 0;
+  background-color: black;
+  color: white;
+  width: auto;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+.Contact{
+  margin-top: -16px;
+  width: auto;
+  margin-right: 25%;
+  justify-content: space-around;
+  margin-left: 25%;
+  background-color: black;
+}
+.Email{
+  background-color:white;
+  font-size: 28px;
+  color: black;
+  font-weight: 500;
+  margin-top: 0px;
+  margin:  15px;
+  margin-right: 10.5%;
+  margin-left: 31.5%;
+}
+.Email,.LinkedIn:hover{
+  cursor: pointer;
+}
+.LinkedIn{
+  margin-right: 12.5%;
+  margin-left: -1.5%;
+  background-color:#1d1682 ;
+  font-size: 28px;
+  color: white;
+  font-weight: 500;
+}
+.container{
+  background-color:black;
+  margin:0;
+  width: auto;
+  margin-right: 25%;
+  justify-content: space-around;
+  margin-left: 25%;
+  padding-bottom: 55px;
+  /* border-radius: 8px; */
+}
+.container h2, .container p ,.container h3{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  color: white;
+}
+.footer{
+  margin-right: 25%;
+  justify-content: space-around;
+  margin-left: 25%;
+  background-color:black;
+padding:  5px;
+text-align: center;
+/* background-color:  black; */
+color: white;
+border-radius: 0px 0px 43px 43px;
+}
+.Insta ,.Tele,.Face{
+   padding-right: 35px;
+   display: inline-block;
+  
+}
+.Insta ,.Tele,.Face:hover{
+  cursor: pointer;
+
+}
+
+.Insta{
+  margin-left: 24px;
+}

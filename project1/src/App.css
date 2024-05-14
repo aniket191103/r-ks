@@ -1,0 +1,69 @@
+
+body{
+  /* font-family: 'Cabin', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  background-color:#282D35;
+  height: 100%;
+}
+
+.Header{
+display: flex;
+background-color: #21111A;
+color:white;
+height: 60px;
+margin: 0px;
+}
+.Header>h5{
+  display: flex;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+  top: -22px;
+  position: relative;
+}
+.Navbar
+{
+  display: flex;
+  justify-content: right;
+ width: 100%;
+}
+.Navbar>h5{
+  justify-content:right;
+}
+.logo{
+  position: relative;
+  top:15px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content:left;
+  margin-right: 8px;
+}
+.Heading{
+  color: white;
+  margin-left: 25px;
+  text-align: left;
+  line-height: 49px/1.3;
+  font-family:"Roboto",sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  
+}
+.List{
+color: white;
+background-image: url('/public/images/React-logo-half.png');
+background-repeat: no-repeat;
+background-position-x: right;
+background-position-y: 75%;
+height: 100%;
+width: 100%;
+}
+.List ul li{
+  padding: 8px;
+  font-size: 12px;
+
+}
+.List ul  li::marker{
+font-size: 1.4rem;
+color: #61DAFB;
+}

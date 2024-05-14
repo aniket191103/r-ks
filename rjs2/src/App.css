@@ -1,0 +1,26 @@
+.nav-items{
+   
+  display: flex;
+}
+.nav-items img{
+width: 65px;
+height: 45px;
+
+}
+
+.nav-items ul{
+ border-radius: 5px solid black;
+display: flex;
+list-style: none;
+text-decoration: none;
+padding: 5px;
+}
+.nav-items ul {
+padding: 5px;
+margin-right:0px;
+margin-left :80%; ;
+}
+.nav-items ul li{
+   padding: 6px;
+   padding-top: 0px;
+}

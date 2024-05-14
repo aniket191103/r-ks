@@ -1,0 +1,74 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    background-color: red;
+}
+.Logo{
+    width: 50px;
+    height: 45px;
+    padding: 10px 36px;
+}
+
+.Grid{
+    margin-top: 25px;
+    margin-right: 25%;
+    margin-left:35%;
+    width: 400px;
+
+}
+
+.Card{
+    display: inline-block;
+justify-content: space-between;
+align-items: center;
+margin: 12px;
+height: auto;
+border-radius: 10px;
+/* background-color:darkblue; */
+box-shadow: 0 0 10px rgba(0,0,0,0) black;
+display: inline-block;;
+margin-left: 180px;
+border: 4px transparent rebeccapurple;
+padding: -23px;
+}
+.Block{
+  padding: 5px;
+}
+.Card_Img{
+/* 
+flex-direction: row; */
+ width: 240px;
+height: 300px;
+border-radius: 8px;
+}
+.Rating{
+    display: flex;
+}
+.Fav{ 
+    width: 12px;
+    height: 12px;
+    margin-top: 21px;
+margin-right: 2px;
+}
+.Block_Abt,.Price{
+    font-size: 16px;
+    color: #7c7b7b;
+    line-height: 24px;
+    /* max-width: 90%; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: -17px;
+}
+.Price{
+    margin-top: -25px;
+}
+.info-btn{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    margin-top: -435px;
+    border-radius: 12px;
+    background-color:#fafbfd;
+    z-index: 3;
+}
